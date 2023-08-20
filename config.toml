@@ -1,0 +1,33 @@
+baseURL = 'http://dogbuilt.net/'
+languageCode = 'en-us'
+title = 'abi’s'
+
+theme = "terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "pink"
+  centerTheme = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "abi’s blog"
+    subtitle = "somewhere to type about things"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "abi’s blog"
+      logoHomeLink = "/"
